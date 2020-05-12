@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0rem;
+}
+#container{
+	background-color: white;
+	width: 897px;
+	margin: 0px auto;
+}
+#nav{
+	background: url(../img/logo.gif);
+	height: 3.5625rem;
+	background-repeat: no-repeat;
+	background-color: red;
+}
+#nav ul{
+	list-style-type: none;
+	float: right;
+}
+#nav ul li{
+	float: left;
+	text-align: center;/*设置文本的水平对齐方式，左中右*/
+	line-height: 74px;/*设置的是文本的垂直对齐方式，上中下*/
+}
+#nav ul a{
+	font-weight: bold;
+}
+#nav ul a:link {text-decoration:none;color: black;}
+#nav ul a:visited {text-decoration:none;color: green;}
+#nav ul a:hover {text-decoration:underline;color: red;}
+#nav ul a:active {text-decoration:underline;color: aqua;}
+li.jl{
+	width: 0.9375rem;
+}
+#banner{
+	width: 897px;
+	height: 345px;
+}
+#main{
+	margin: 0.3125rem;
+}
+#left01{
+	align-items: center;
+}
+#left01 ul li{
+	float: left;
+	list-style-type: none;
+}
+#right01{
+	float: right;
+}
+#right01 ul{
+	list-style-type: none;
+	font-size: 0.575rem;
+	color: #008000;
+}
+#footer{
+	background-color: limegreen;
+	text-align: center;
+	line-height:2.5rem ;
+	font-size: 1.25rem;
+	clear: both;
+	height: 5rem;
+	color: #FFFFFF;
+}
