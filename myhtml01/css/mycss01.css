@@ -1,0 +1,152 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    background: linear-gradient(to bottom right, mediumpurple, red, pink, orange, yellow, white);
+}
+
+
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 50px;
+
+}
+
+.header li {
+    float: left;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.content {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    height: 320px;
+    width: 320px;
+    margin: 0;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.a {
+    position: relative;
+    float: left;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.b {
+    float: left;
+    position: relative;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.c {
+    float: left;
+    position: relative;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.d {
+    float: left;
+    position: relative;
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.e {
+    float: left;
+    position: relative;
+    background: linear-gradient(to top right, red, orange, yellow, green, blue, mediumpurple);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.f {
+    float: left;
+    position: relative;
+    background-color: deeppink;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.g {
+    float: left;
+    position: relative;
+    background-color: mediumpurple;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.h {
+    float: left;
+    position: relative;
+    background-color: lightgray;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.i {
+    float: left;
+    position: relative;
+    background-color: deepskyblue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -120%, 0);
+    text-align: center;
+}
+
+a {
+    font-size: 1.25rem;
+    font-family: 微软雅黑;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: yellow;
+}
